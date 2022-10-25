@@ -7,37 +7,83 @@
   <title>Template Project</title>
   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
   <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-
-
-
+  
+  
+  
   <!-- SITE HEADER START -->
-
-  <header class="site-header">
-
-  </header>
-
+  
+  <!-- <header class="site-header">
+    
+  </header> -->
+  
   <!-- SITE HEADER END -->
-
-
+  
+  
   <!-- SITE MAIN START -->
   <main class="site-main">
-
+    
     <section class="hero">
-      
-    </section>
+      <div class="container">
+        <div class="hero-box">
+          <img class="hero-box__logo" src="./images/zanex-logo.png" width="130" height="50" alt="zanex logo">
+          
+          <div class="hero-box__in">
+            <h1 class="hero-box__title">
+              Login
+            </h1>
+            <form class="hero-box__form" autocomplete="off" method="post">
+              <input class="hero-box__input" type="email" placeholder="Email" aria-label="enter your email" required>
+              <input class="hero-box__input hero-box__input--password" type="password" placeholder="Password" aria-label="enter your password" required>
+              
+              <a class="hero-box__forgot-password" href="#">
+                Forgot Password?
+              </a>
+              
+              <button class="hero-box__btn" type="button">
+                Login
+              </button>
+              
+              <div class="hero-box__create-accaunt">
+                <p class="hero-box__member">
+                  Not a member?
+                </p>
+                <a class="hero-box__accaunt" href="#">
+                  Create an Accaunt
+                </a>
+              </div>
+            </form>
+            
+            <ul class="hero-box__list">
+              <li class="hero-box__item"><a href="#">
+                <img class="hero-box__social" src="./images/google-icon.png" width="20" height="20" alt="google icon">
+              </a>
+            </li>
+            <li class="hero-box__item"><a href="#">
+              <img class="hero-box__social" src="./images/facebook-icon.png" width="20" height="20" alt="facebook icon">
+            </a>
+          </li>
+          <li class="hero-box__item"><a href="#">
+            <img class="hero-box__social" src="./images/twitter-icon.png" width="20" height="20" alt="twitter icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
 
-  </main>
+</main>
 
-  <!-- SITE MAIN END -->
+<!-- SITE MAIN END -->
 
-  <!-- SITE FOOTER START -->
-  <footer class="site-footer">
-
-  </footer>
-  <!-- SITE FOOTER END -->
+<!-- SITE FOOTER START -->
+<footer class="site-footer">
+  
+</footer>
+<!-- SITE FOOTER END -->
 
 </body>
 </html>

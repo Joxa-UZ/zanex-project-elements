@@ -27,7 +27,8 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto", "Arial", sans-serif; */
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #22223D;
   /* font-size: 16px; */
   /* font-weight: 400; */
   /* line-height: var(--main-line-height); */
@@ -50,7 +51,7 @@ body{
 /* CONTAINER */
 
 .container{
-  /* max-width: your-size-here; */
+  max-width: 1240px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 20px;
@@ -61,5 +62,108 @@ body{
 .site-main{
   flex-grow: 1;
 }
+.hero-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.hero-box__in{
+  position: relative;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #30304D;
+  border-radius: 5px;
+  box-shadow: 50 3px 9px 0 rgb(28 28 51 / 15%);
+}
+
+.hero-box__title{
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-box__form{
+  display: flex;
+  flex-direction: column;
+}
+.hero-box__input{
+  width: 300px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  padding-left: 40px;
+  background-color: #26263E;
+  border: 1px solid #ffffff1a;
+  background-image: url("../images/email-icon.png");
+  background-repeat: no-repeat;
+  background-size: 17px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #dedefd;
+  border-radius: 5px;
+  background-position: calc(50% - 130px) calc(50%);
+}
+
+.hero-box__input--password{
+  background-image: url("../images/password-icon.png");
+  background-repeat: no-repeat;
+}
+
+.hero-box__forgot-password{
+  display: flex;
+  justify-content: end;
+  font-size: 15px;
+  color: #6259ca;
+  text-decoration: none;
+}
+
+.hero-box__btn{
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #6259CA;
+}
+
+.hero-box__create-accaunt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-box__member{
+  margin-right: 5px;
+  color: #fff;
+  font-size: 15px;
+}
+.hero-box__accaunt{
+  color: #6259ca;
+  text-decoration: none;
+}
 
 
+.hero-box__list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-box__item{
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #43435D;
+}
+.hero-box__item:last-child{
+  margin-right: 0;
+}
